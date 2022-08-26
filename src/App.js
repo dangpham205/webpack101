@@ -1,14 +1,12 @@
-import './App.css'
-import laugh from './assets/laughing.svg'
+import '~/App.scss';
+import { laughing } from '~/assets';
 function App() {
-    return(
-        <div>
-            <h1 >abcbabca</h1>
-            <div>abcabsaxxxxxxxxx</div>
-            <img src={laugh} alt="" />
-            <img src='./assets/laughing.svg' alt="" />
+    return (
+        <div className="wrapper">
+            <h1>Lét gô ông già</h1>
+            <img src={laughing} alt="" />
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
